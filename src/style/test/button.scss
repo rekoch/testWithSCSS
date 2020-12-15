@@ -1,0 +1,5 @@
+@use "src/style/variables";
+
+.test {
+  color: variables.$smallSpace
+}
