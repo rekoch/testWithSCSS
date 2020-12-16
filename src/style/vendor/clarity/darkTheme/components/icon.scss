@@ -1,0 +1,34 @@
+:root {
+  --clr-icon-color-success: hsl(92, 79%, 40%);
+  --clr-icon-color-error: hsl(3, 90%, 62%);
+  --clr-icon-color-warning: hsl(49, 98%, 51%);
+  --clr-icon-color-info: hsl(198, 65%, 57%);
+  --clr-icon-color-inverse: hsl(0, 0%, 100%);
+  --clr-icon-color-highlight: hsl(198, 65%, 57%);
+
+  clr-icon {
+    &.is-green,
+    &.is-success {
+      fill: var(--clr-icon-color-success);
+    }
+    &.is-red,
+    &.is-danger,
+    &.is-error {
+      fill: var(--clr-icon-color-error);
+    }
+    &.is-warning {
+      fill: var(--clr-icon-color-warning);
+    }
+    &.is-blue,
+    &.is-info {
+      fill: var(--clr-icon-color-info);
+    }
+    &.is-white,
+    &.is-inverse {
+      fill: var(--clr-icon-color-inverse);
+    }
+    &.is-highlight {
+      fill: var(--clr-icon-color-highlight);
+    }
+  }
+}

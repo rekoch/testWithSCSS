@@ -1,1 +1,19 @@
-<div>sdfsd</div>
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-success">Success</button>
+<button class="btn btn-warning">Warning</button>
+<button class="btn btn-danger">Danger</button>
+<button class="btn btn-danger" disabled>Disabled</button>
+
+<form clrForm>
+  <clr-combobox-container>
+    <label>Two</label>
+    <clr-combobox [(ngModel)]="selected" name="two" required placeholder="Select a number">
+      <clr-options>
+        <clr-option clrValue="1">1</clr-option>
+        <clr-option clrValue="2">2</clr-option>
+        <clr-option clrValue="3">3</clr-option>
+      </clr-options>
+    </clr-combobox>
+  </clr-combobox-container>
+</form>
+<div>selected value: {{selected}}</div>

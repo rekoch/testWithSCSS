@@ -1,0 +1,20 @@
+:root {
+  --clr-global-font-color: hsl(210, 16%, 93%);
+  --clr-global-font-color-secondary: hsl(203, 16%, 72%);
+
+  --clr-h1-color: var(--clr-global-font-color);
+  --clr-h2-color: var(--clr-global-font-color);
+  --clr-h3-color: var(--clr-global-font-color);
+  --clr-h4-color: var(--clr-global-font-color);
+  --clr-h5-color: var(--clr-global-font-color);
+  --clr-h6-color: var(--clr-global-font-color-secondary);
+
+  --clr-p1-color: var(--clr-global-font-color-secondary);
+  --clr-p2-color: var(--clr-global-font-color-secondary);
+  --clr-p3-color: var(--clr-global-font-color-secondary);
+  --clr-p4-color: var(--clr-global-font-color);
+  --clr-p5-color: var(--clr-global-font-color);
+  --clr-p6-color: var(--clr-global-font-color);
+  --clr-p7-color: var(--clr-global-font-color);
+  --clr-p8-color: var(--clr-global-font-color);
+}

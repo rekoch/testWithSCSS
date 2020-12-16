@@ -1,0 +1,20 @@
+:root {
+  --clr-stack-view-border-color: hsl(208, 14%, 39%);
+  --clr-stack-view-bg-color: var(--clr-global-app-background);
+  --clr-stack-view-stack-block-border-bottom: var(--clr-stack-view-border-color); //border-bottom for stack-view rows) (not last)
+  --clr-stack-view-border-box-color: var(--clr-stack-view-border-color);
+  --clr-stack-block-changed-border-top-color: hsl(205, 100%, 34%); // TODO: Figure out where this shows in the UI.
+  --clr-stack-view-stack-block-label-and-content-bg-color: var(--clr-global-app-background); // stkvw row bg color) when not expanded
+  --clr-stack-view-stack-children-stack-block-border-bottom-color: var(--clr-stack-view-border-color); // children of) an expanded row
+  --clr-stack-view-stack-children-stack-block-label-and-content-bg-color: hsl(
+      198,
+      28%,
+      18%
+  ); // children of an expanded row
+  --clr-stack-view-stack-block-label-text-color: hsl(212, 10%, 61%);
+  --clr-stack-view-stack-block-expanded-bg-color: hsl(203, 32%, 29%);
+  --clr-stack-view-stack-block-expandable-hover: hsl(203, 32%, 29%);
+  --clr-stack-view-stack-block-content-text-color: hsl(203, 16%, 72%);
+  --clr-stack-view-stack-block-expanded-text-color: hsl(0, 0%, 100%);
+  --clr-stack-view-stack-block-caret-color: hsl(0, 0%, 60%);
+}

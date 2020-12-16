@@ -1,0 +1,10 @@
+:root {
+  --clr-vertical-nav-item-color: hsl(203, 16%, 72%);
+  --clr-vertical-nav-item-active-color: hsl(0, 0%, 100%);
+  --clr-vertical-nav-bg-color: hsl(201, 30%, 13%);
+  --clr-vertical-nav-active-bg-color: var(--clr-global-selection-color);
+  --clr-vertical-nav-hover-bg-color: var(--clr-global-hover-bg-color);
+  --clr-vertical-nav-icon-active-color: hsl(0, 0%, 100%);
+  --clr-vertical-nav-toggle-icon-color: hsl(203, 16%, 72%);
+  --clr-vertical-nav-trigger-divider-border-color: hsl(199, 19%, 17%);
+}

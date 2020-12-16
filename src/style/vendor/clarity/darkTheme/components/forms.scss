@@ -1,0 +1,43 @@
+:root {
+  //GENERIC
+  --clr-forms-label-color: hsl(203, 16%, 72%);
+  --clr-forms-text-color: hsl(210, 16%, 93%); // No label, no wrapper
+  --clr-forms-invalid-color: hsl(3, 90%, 62%);
+  --clr-forms-subtext-color: hsl(0, 0%, 45%);
+  --clr-forms-border-color: hsl(203, 16%, 72%);
+  --clr-forms-focused-color: hsl(198, 65%, 57%); // Vertical no wrapper, no label
+
+  // Textarea
+  --clr-forms-textarea-background-color: hsl(201, 30%, 13%);
+  --clr-forms-select-multiple-background-color: hsl(198, 28%, 18%);
+  --clr-forms-select-multiple-border-color: hsl(0, 0%, 0%);
+
+  // Select
+  // TODO: Properly map these to updated dark theme design
+  // NOTE: The new form selects seemed to be working like the deprecated form selects so I'm leaving
+  //       these commented out for now.
+  //$clr-forms-select-hover-background: rgba(221, 221, 221, 0.5); // CAN WE KEY THIS FROM A KNOWN COLOR
+  //$clr-forms-select-caret-hover-color: var(--clr-color-neutral-600);
+  //$clr-forms-select-caret-color: hsl(0, 0%, 60%);
+  --clr-forms-select-option-color: hsl(201, 30%, 13%); // Option bg color on chrome/windows is white.
+  //$clr-forms-select-multiple-background-color: hsl(0, 0%, 100%);
+  //$clr-forms-select-multiple-border-color: var(--clr-color-neutral-400);
+  //$clr-forms-select-multiple-option-color: var(--clr-forms-text-color);
+
+  // Checkbox
+  --clr-forms-checkbox-label-color: hsl(203, 16%, 72%);
+  --clr-forms-checkbox-background-color: hsl(198, 65%, 57%); // Use color here
+  --clr-forms-checkbox-checked-shadow: inset 0 0 0 0.3rem var(--clr-forms-checkbox-background-color);
+  --clr-forms-checkbox-indeterminate-border-color: hsl(203, 16%, 72%);
+  --clr-forms-checkbox-mark-color: hsl(0, 0%, 0%);
+  --clr-forms-checkbox-disabled-background-color: hsl(204, 10%, 60%);
+  --clr-forms-checkbox-disabled-mark-color: hsl(0, 0%, 0%);
+
+  // Radio
+  --clr-forms-radio-label-color: hsl(203, 16%, 72%);
+  --clr-forms-radio-selected-shadow: var(--clr-forms-checkbox-checked-shadow);
+  --clr-forms-radio-focused-shadow: 0 0 0.1rem 0.1rem var(--clr-link-active-color);
+  --clr-forms-radio-disabled-background-color: hsl(0, 0%, 0%);
+  --clr-forms-radio-disabled-mark-color: var(--clr-forms-checkbox-disabled-mark-color);
+  --clr-forms-radio-disabled-shadow: var(--clr-forms-checkbox-checked-shadow);
+}

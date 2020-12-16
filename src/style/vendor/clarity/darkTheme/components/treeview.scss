@@ -1,0 +1,8 @@
+:root {
+  --clr-tree-node-caret-link-hover-color: hsl(0, 0%, 100%);
+  --clr-tree-link-hover-color: hsl(0, 0%, 93%);
+  --clr-tree-link-hover-color: var(--clr-global-hover-bg-color);
+  --clr-tree-link-selection-color: var(--clr-global-selection-color);
+  --clr-tree-link-text-color: hsl(203, 16%, 72%);
+  --clr-tree-node-caret-color: hsl(203, 16%, 72%);
+}

@@ -1,0 +1,108 @@
+:root {
+  // Use these to control the disabled appearance for all buttons.
+  --clr-btn-disabled-font-color: hsl(0, 0%, 0%);
+  --clr-btn-outline-disabled-font-color: hsl(0, 0%, 100%);
+  --clr-btn-disabled-bg-color: hsl(0, 0%, 100%);
+  --clr-btn-disabled-border-color: hsl(0, 0%, 100%);
+
+  // Disabled icon color
+  --clr-btn-icon-disabled-color: var(--clr-btn-outline-disabled-font-color);
+
+  // Default button
+  --clr-btn-default-color: hsl(198, 65%, 57%); // border-color, color, checked-background-color
+  --clr-btn-default-bg-color: transparent; // background-color, disabled-background-color
+  --clr-btn-default-hover-bg-color: hsla(0, 0%, 100%, 0.1); // hover-background-color
+  --clr-btn-default-hover-color: hsl(194, 78%, 63%); // hover-color
+  --clr-btn-default-box-shadow-color: hsl(0, 0%, 0%); // active-box-shadow-color
+  --clr-btn-default-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-default-checked-bg-color: var(--clr-btn-default-color);
+  --clr-btn-default-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+  --clr-btn-default-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Default button
+  --clr-btn-default-outline-color: hsl(198, 65%, 57%); // border-color, color, checked-background-color
+  --clr-btn-default-outline-bg-color: transparent; // background-color, disabled-background-color
+  --clr-btn-default-outline-hover-bg-color: hsla(0, 0%, 100%, 0.1); // hover-background-color
+  --clr-btn-default-outline-hover-color: hsl(194, 78%, 63%); // hover-color
+  --clr-btn-default-outline-box-shadow-color: hsl(0, 0%, 0%); // active-box-shadow-color
+  --clr-btn-default-outline-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-default-outline-checked-bg-color: var(--clr-btn-default-outline-color); // checked-color
+  --clr-btn-default-outline-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+  --clr-btn-default-outline-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+  --clr-btn-default-outline-disabled-checked-color: var(--clr-btn-disabled-bg-color);
+
+  // Primary button
+  --clr-btn-primary-color: hsl(0, 0%, 0%); // color, checked-background-color
+  --clr-btn-primary-bg-color: hsl(198, 65%, 57%); // background-color, disabled-background-color
+  --clr-btn-primary-border-color: hsl(198, 65%, 57%); // border-color
+  --clr-btn-primary-hover-bg-color: hsl(194, 78%, 63%); // hover-background-color
+  --clr-btn-primary-hover-color: hsl(0, 0%, 0%); // hover-color
+  --clr-btn-primary-box-shadow-color: hsl(205, 100%, 34%); // active-box-shadow-color
+  --clr-btn-primary-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-primary-disabled-color: var(--clr-btn-disabled-font-color); // disabled-color
+  --clr-btn-primary-disabled-bg-color: var(--clr-btn-disabled-bg-color); // disabled-bg-color
+  --clr-btn-primary-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Success button
+  --clr-btn-success-color: hsl(0, 0%, 0%); // color, checked-color,
+  --clr-btn-success-bg-color: hsl(92, 79%, 40%); // background-color, border-color
+  --clr-btn-success-hover-bg-color: hsl(83, 77%, 44%); // hover-background-color
+  --clr-btn-success-hover-color: var(--clr-btn-success-color); // hover-color
+  --clr-btn-success-box-shadow-color: hsl(98, 100%, 21%); // active-box-shadow-color
+  --clr-btn-success-checked-bg-color: var(--clr-btn-success-hover-bg-color); // checked-background-color
+  --clr-btn-success-disabled-color: var(--clr-btn-disabled-font-color); // disabled-color
+  --clr-btn-success-disabled-bg-color: var(--clr-btn-disabled-bg-color); // disabled-background-color
+  --clr-btn-success-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Success outline button
+  --clr-btn-success-outline-color: hsl(92, 79%, 40%); // color
+  --clr-btn-success-outline-border-color: hsl(92, 79%, 40%); // border-color, checked-background-color
+  --clr-btn-success-outline-hover-bg-color: hsla(0, 0%, 100%, 0.1); // hover-background-color
+  --clr-btn-success-outline-hover-color: hsl(83, 77%, 44%); // hover-color
+  --clr-btn-success-outline-box-shadow-color: hsl(0, 0%, 0%); // active-box-shadow-color
+  --clr-btn-success-outline-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-success-outline-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+  --clr-btn-success-outline-disabled-bg-color: transparent; // disabled-background-color
+  --clr-btn-success-outline-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Danger button
+  --clr-btn-danger-color: hsl(0, 0%, 0%); // color, checked-color,
+  --clr-btn-danger-bg-color: hsl(3, 90%, 62%); // background-color, border-color
+  --clr-btn-danger-hover-bg-color: hsl(3, 100%, 69%); // hover-background-color
+  --clr-btn-danger-hover-color: var(--clr-btn-danger-color); // hover-color
+  --clr-btn-danger-box-shadow-color: hsl(10, 100%, 39%); // active-box-shadow-color
+  --clr-btn-danger-checked-bg-color: hsl(10, 100%, 39%); // checked-background-color
+  --clr-btn-danger-disabled-color: var(--clr-btn-disabled-font-color); // disabled-color),
+  --clr-btn-danger-disabled-bg-color: var(--clr-btn-disabled-bg-color); // disabled-background-color
+  --clr-btn-danger-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Danger outline button
+  --clr-btn-danger-outline-border-color: hsl(3, 90%, 62%); // border-color
+  --clr-btn-danger-outline-color: hsl(3, 90%, 62%); // color
+  --clr-btn-danger-outline-hover-bg-color: hsla(0, 0%, 100%, 0.1); // hover-background-color
+  --clr-btn-danger-outline-hover-color: hsl(3, 100%, 69%); // hover-color
+  --clr-btn-danger-outline-box-shadow-color: hsl(0, 0%, 0%); // active-box-shadow-color
+  --clr-btn-danger-outline-checked-bg-color: hsl(3, 90%, 62%); // checked-background-color
+  --clr-btn-danger-outline-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-danger-outline-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+  --clr-btn-danger-outline-disabled-bg-color: transparent; // disabled-background-color
+  --clr-btn-danger-outline-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+
+  // Link button
+  --clr-btn-link-color: hsl(198, 65%, 57%); // color
+  --clr-btn-link-hover-color: hsl(194, 78%, 63%); // hover-color
+  --clr-btn-link-checked-color: hsl(198, 65%, 57%); // checked-color
+  --clr-btn-link-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+
+  // Inverse button
+  --clr-btn-inverse-border-color: hsl(210, 16%, 93%); // border-color
+  --clr-btn-inverse-bg-color: transparent; // background-color
+  --clr-btn-inverse-color: hsl(210, 16%, 93%); // color
+  --clr-btn-inverse-hover-bg-color: rgba(0, 0, 0, 0.1); // hover-background-color
+  --clr-btn-inverse-hover-color: hsl(0, 0%, 100%); // hover-color
+  --clr-btn-inverse-box-shadow-color: hsl(203, 14%, 70%); // active-box-shadow-color
+  --clr-btn-inverse-checked-bg-color: hsla(0, 0%, 100%, 0.15); // checked-background-color
+  --clr-btn-inverse-checked-color: hsl(0, 0%, 100%); // checked-color
+  --clr-btn-inverse-disabled-color: var(--clr-btn-outline-disabled-font-color); // disabled-color
+  --clr-btn-inverse-disabled-border-color: var(--clr-btn-disabled-border-color); // disabled-border-color
+}

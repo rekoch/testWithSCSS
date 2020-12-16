@@ -1,0 +1,14 @@
+:root {
+  --clr-sliding-panel-text-color: hsl(0, 0%, 34%);
+  --clr-transition-style: ease;
+  --clr-nav-background-color: hsl(0, 0%, 93%);
+  --clr-nav-background-color: hsl(201, 30%, 15%);
+  --clr-responsive-nav-hover-bg: var(--clr-global-selection-color);
+  --clr-sliding-panel-text-color: hsl(0, 0%, 100%);
+
+  --clr-sidenav-border-color: hsl(200, 30%, 12%);
+  --clr-sidenav-link-hover-color: var(--clr-global-selection-color);
+
+  --clr-subnav-bgColor: hsl(201, 30%, 13%);
+  --clr-nav-shadow: 0 -0.05rem 0 hsl(208, 16%, 34%) inset;
+}

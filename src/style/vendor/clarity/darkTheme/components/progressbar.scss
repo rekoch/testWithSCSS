@@ -1,0 +1,7 @@
+:root {
+  --clr-progress-defaultBarColor: hsl(198, 65%, 57%);
+  --clr-progress-success-color: hsl(92, 79%, 40%);
+  --clr-progress-danger-color: hsl(3, 90%, 62%);
+  --clr-progress-warning-color: var(--clr-progress-danger-color);
+  --clr-progress-bg-color: hsl(200, 23%, 25%);
+}
